@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 143px;
+  border: 1px solid;
+  border-color:#DFDFDF;
+}
+.Left {
+  margin-top: 28px;
+  margin-left: 50px;
+}
+.Right {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Bell {
+  align-self: center;
+}
+.User {
+  align-self: center;
+}
+.Logout {
+  align-self: center;
+}
+.Body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+}
+.Lside {
+  display: flex;
+  flex-direction: column;
+  background-color: #E8F1FF;
+  width: 293px;
+  height: 80vh;
+  align-items: left;
+  padding-top: 20px;
+}
+.Rside {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 34px;
+}
+.PriBtn {
+  display: flex;
+  color:black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 42px;
+  /* padding-right: 20px; */
+  height: 45px;
+  align-items: center;
+  text-decoration: none;
+}
+.PriBtn:hover {
+  background-color: #3C3CB0;
+  color:white;
+
+}
+.ScdBtn {
+  display: flex;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 68px;
+  height: 45px;
+  align-items: center;
+  text-decoration: none;
+}
+.ScdBtn:hover {
+  color: #3c3cb0
+}
+h1 {
+  font-size: 20px !important;
+  line-height: 24px;
+  font-weight: 500;
+
+}
